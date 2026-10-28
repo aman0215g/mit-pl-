@@ -1,0 +1,139 @@
+Q-1 give input and find area of rectangle.
+
+#include<stdio.h>
+int main () {
+float a,b;
+printf("enter length:");
+scanf("%f",&a);
+printf("enter Width:");
+scanf("%f",&b);
+printf("area of rectangle = %f",a*b);
+return 0;
+}
+
+Q-2 give input and find area of triangle
+
+#include<stdio.h>
+int main () {
+float a,b;
+printf("enter length:");
+scanf("%f",&a);
+printf("enter base:");
+scanf("%f",&b);
+printf("area of traingle = %f",0.5*a*b);
+return 0;
+}
+
+Q-3 Write a program to accept the basic salary and calculate the annual salary.
+
+
+#include<stdio.h>
+int main () {
+float a;
+printf("enter monthly salary:");
+scanf("%f",&a);
+printf("annual salary is = %f",12*a);
+return 0;
+}
+
+Q-4 Write a program to accept a person's name, age, and city, then display the information.
+
+#include<stdio.h>
+int main () {
+char a[50],b[50];
+int c;
+printf("enter name:");
+scanf("%s",&a);
+printf("enter city you live in:");
+scanf("%s",&b);
+printf("enter your age:");
+scanf("%d",&c);
+printf("name is = %s\ncity you live in is =%s \nage is =%d",a,b,c);
+return 0;
+}
+
+Unit 2
+Q-1 Check Age Category - child, teenager, or adult. 
+
+int main () {
+int a;
+printf("enter your age:");
+scanf("%d",&a);
+if (a>0 && a<=12)
+{
+printf("you are child");
+}
+if (a>=13 && a<=19)
+{
+printf("you are teenager");
+}
+if (a>=20)
+{
+printf("you are adult");
+}
+return 0;
+}
+
+Q-2 Check Exam Eligibility (if attendance ≥ 75% then student is eligible else not eligible).
+
+
+#include<stdio.h>
+int main () {
+float a;
+printf("enter student attendance in percentage:");
+scanf("%f",&a);
+if (a>=75)
+{
+printf("student is eligible");
+}
+else
+{
+printf("student not eligible");
+}
+return 0;
+}
+
+
+Q-3 Check Divisibility by 3,5,7.11
+
+
+#include<stdio.h>
+int main () {
+int a;
+printf("enter a number:");
+scanf("%d",&a);
+if (a%3==0)
+{
+printf("number is divisible by 3\n");
+}
+else
+{
+printf("number is not divisible by 3\n");
+}
+if (a%5==0)
+{
+printf("number is divisible by 5\n");
+}
+else
+{
+printf("number is not divisible by 5\n");
+}
+if (a%7==0)
+{
+printf("number is divisible by 7\n");
+}
+else
+{
+printf("number is not divisible by 7\n");
+}
+if (a%11==0)
+{
+printf("number is divisible by 11\n");
+}
+else
+{
+printf("number is not divisible by 11");
+}
+return 0;
+}
+
